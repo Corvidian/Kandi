@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: template-fi.aux
+The style file: babalpha-lf.bst
+Database file #1: references-fi.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty language in obesity
+Warning--there's a number but no volume in obesity
+You've used 10 entries,
+            3208 wiz_defined-function locations,
+            749 strings with 8311 characters,
+and the built_in function-call counts, 5931 in all, are:
+= -- 538
+> -- 264
+< -- 6
++ -- 94
+- -- 94
+* -- 635
+:= -- 835
+add.period$ -- 24
+call.type$ -- 10
+change.case$ -- 74
+chr.to.int$ -- 10
+cite$ -- 12
+duplicate$ -- 305
+empty$ -- 495
+format.name$ -- 148
+if$ -- 1231
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 15
+newline$ -- 57
+num.names$ -- 30
+pop$ -- 105
+preamble$ -- 1
+purify$ -- 85
+quote$ -- 0
+skip$ -- 183
+stack$ -- 0
+substring$ -- 277
+swap$ -- 137
+text.length$ -- 6
+text.prefix$ -- 2
+top$ -- 0
+type$ -- 76
+warning$ -- 2
+while$ -- 47
+width$ -- 14
+write$ -- 118
+(There were 2 warnings)

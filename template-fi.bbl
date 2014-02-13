@@ -1,0 +1,113 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{CMT{\etalchar{+}}08}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem [{AKW09}]{obesity}
+\btxnamefont {\btxlastnamefont {Arteaga}, Sonia\btxfnamespacelong M},
+  \btxnamefont {\btxlastnamefont {Kudeki}, Mo}\btxandcomma {} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Woodworth}, Adrienne}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Combating obesity trends in teenagers
+  through persuasive mobile technology}{Combating obesity trends in teenagers
+  through persuasive mobile technology}}.
+\newblock \btxjournalfont {ACM SIGACCESS Accessibility and Computing},
+  (94):17--25, 2009.
+
+\bibitem [{CESL06}]{design}
+\btxnamefont {\btxlastnamefont {Consolvo}, Sunny}, \btxnamefont
+  {\btxlastnamefont {Everitt}, Katherine}, \btxnamefont {\btxlastnamefont
+  {Smith}, Ian}\btxandcomma {} \btxandlong {}\ \btxnamefont {\btxlastnamefont
+  {Landay}, James\btxfnamespacelong A}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Design requirements for technologies that encourage
+  physical activity}{Design requirements for technologies that encourage
+  physical activity}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the SIGCHI conference on
+  Human Factors in computing systems}, \btxpageslong {}\ 457--466. ACM, 2006.
+
+\bibitem [{CMT{\etalchar{+}}08}]{ubifit}
+\btxnamefont {\btxlastnamefont {Consolvo}, Sunny}, \btxnamefont
+  {\btxlastnamefont {McDonald}, David\btxfnamespacelong W}, \btxnamefont
+  {\btxlastnamefont {Toscos}, Tammy}, \btxnamefont {\btxlastnamefont {Chen},
+  Mike\btxfnamespacelong Y}, \btxnamefont {\btxlastnamefont {Froehlich}, Jon},
+  \btxnamefont {\btxlastnamefont {Harrison}, Beverly}, \btxnamefont
+  {\btxlastnamefont {Klasnja}, Predrag}, \btxnamefont {\btxlastnamefont
+  {LaMarca}, Anthony}, \btxnamefont {\btxlastnamefont {LeGrand}, Louis},
+  \btxnamefont {\btxlastnamefont {Libby}, Ryan}\btxandcomma {} \btxetalfont
+  {\btxetalshort {.}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Activity
+  sensing in the wild: a field trial of ubifit garden}{Activity sensing in the
+  wild: a field trial of ubifit garden}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the SIGCHI Conference on
+  Human Factors in Computing Systems}, \btxpageslong {}\ 1797--1806. ACM, 2008.
+
+\bibitem [{dOCO10}]{movipill}
+\btxnamefont {\btxlastnamefont {Oliveira}, Rodrigo~de}, \btxnamefont
+  {\btxlastnamefont {Cherubini}, Mauro}\btxandcomma {} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Oliver}, Nuria}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Movipill: improving medication compliance for elders using
+  a mobile persuasive social game}{MoviPill: improving medication compliance
+  for elders using a mobile persuasive social game}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 12th ACM
+  international conference on Ubiquitous computing}, \btxpageslong {}\
+  251--260. ACM, 2010.
+
+\bibitem [{FDK{\etalchar{+}}09}]{ubigreen}
+\btxnamefont {\btxlastnamefont {Froehlich}, Jon}, \btxnamefont
+  {\btxlastnamefont {Dillahunt}, Tawanna}, \btxnamefont {\btxlastnamefont
+  {Klasnja}, Predrag}, \btxnamefont {\btxlastnamefont {Mankoff}, Jennifer},
+  \btxnamefont {\btxlastnamefont {Consolvo}, Sunny}, \btxnamefont
+  {\btxlastnamefont {Harrison}, Beverly}\btxandcomma {} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Landay}, James\btxfnamespacelong
+  A}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Ubigreen: investigating a
+  mobile tool for tracking and supporting green transportation
+  habits}{UbiGreen: investigating a mobile tool for tracking and supporting
+  green transportation habits}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the SIGCHI Conference on
+  Human Factors in Computing Systems}, \btxpageslong {}\ 1043--1052. ACM, 2009.
+
+\bibitem [{Fog03}]{fogg2003persuasive}
+\btxnamefont {\btxlastnamefont {Fogg}, BJ}\btxauthorcolon\ \btxtitlefont
+  {Persuasive Technology: Using Computers to Change What We Think and Do}.
+\newblock \btxpublisherfont {Morgan Kaufmann}, 2003.
+
+\bibitem [{HK13}]{hamari2013social}
+\btxnamefont {\btxlastnamefont {Hamari}, Juho} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Koivisto}, Jonna}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Social motivations to use gamification: an empirical study
+  of gamifying exercise}{Social motivations to use gamification: an empirical
+  study of gamifying exercise}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proc. of ECIS}, 2013.
+
+\bibitem [{OKH09}]{oinas2009persuasive}
+\btxnamefont {\btxlastnamefont {Oinas-Kukkonen}, Harri} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Harjumaa}, Marja}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Persuasive systems design: Key issues,
+  process model, and system features}{Persuasive Systems Design: Key Issues,
+  Process Model, and System Features}}.
+\newblock \btxjournalfont {Communications of the Association for Information
+  Systems}, 24(1):28, 2009.
+
+\bibitem [{Sat01}]{satyanarayanan2001pervasive}
+\btxnamefont {\btxlastnamefont {Satyanarayanan}, Mahadev}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Pervasive computing: Vision and
+  challenges}{Pervasive computing: Vision and challenges}}.
+\newblock \btxjournalfont {Personal Communications, IEEE}, 8(4):10--17, 2001.
+
+\bibitem [{SM03}]{saha2003pervasive}
+\btxnamefont {\btxlastnamefont {Saha}, Debashis} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Mukherjee}, Amitava}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Pervasive computing: a paradigm for the 21st
+  century}{Pervasive computing: a paradigm for the 21st century}}.
+\newblock \btxjournalfont {Computer}, 36(3):25--31, 2003.
+
+\end{thebibliography}
