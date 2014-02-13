@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.19)  13 FEB 2014 12:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.19)  13 FEB 2014 18:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,11 +910,11 @@ Package rerunfilecheck Info: File `template-fi.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 9492 strings out of 493481
- 140492 string characters out of 3143393
+ 9488 strings out of 493481
+ 140444 string characters out of 3143393
  268060 words of memory out of 3000000
  12548 multiletter control sequences out of 15000+200000
- 45293 words of font info for 71 fonts, out of 3000000 for 9000
+ 45080 words of font info for 69 fonts, out of 3000000 for 9000
  965 hyphenation exceptions out of 8191
  33i,8n,37p,439b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -923,7 +923,7 @@ ips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share
 /lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
-Output written on template-fi.pdf (5 pages, 167093 bytes).
+Output written on template-fi.pdf (5 pages, 166772 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
