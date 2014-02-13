@@ -1,7 +1,0 @@
-\select@language {finnish}
-\contentsline {section}{\numberline {1}Johdanto}{1}{section.1}
-\contentsline {section}{L\IeC {\"a}hteet}{1}{section*.2}
-\select@language {finnish}
-\select@language {finnish}
-\select@language {finnish}
-\select@language {finnish}
