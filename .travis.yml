@@ -1,14 +1,14 @@
 install:
-    - sudo add-apt-repository http://ppa.launchpad.net/texlive-backports/ppa/ubuntu -y
-    - sudo apt-get update
-    - sudo apt-get install texlive-base
-    - sudo apt-get install ttf-sil-gentium ttf-sil-gentium-basic
-    - sudo apt-get install texlive-fonts-extra ttf-inconsolata ttf-droid
-    - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
-    - sudo apt-get install texlive-lang-finnish texlive-lang-swedish
-
+- sudo add-apt-repository http://ppa.launchpad.net/texlive-backports/ppa/ubuntu -y
+- sudo apt-get update
+- sudo apt-get install texlive-base
+- sudo apt-get install ttf-sil-gentium ttf-sil-gentium-basic
+- sudo apt-get install texlive-fonts-extra ttf-inconsolata ttf-droid
+- sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
+- sudo apt-get install texlive-lang-finnish texlive-lang-swedish
 script:
-    - source ./test.sh
-
-notifications:
-    - email: false
+- source ./test.sh
+after_success: ./update-gh-pages.sh
+env:
+  global:
+    secure: U+r4rTSy6EG5zHjREXQ/0VxPmkJ45Br04IsQ2teGr3Sk5UjFSllSgaQSDkcH96TmRs0SDxeG7G8IewHAv7giBzFcj6ZL7JA7Cg50X0fAYUVji+KI2kg3tml2s79R7FX4P4L6nOPStWj4XVsgvkuMaxdqH7P1p3Agjqe+CNNjEEs=
