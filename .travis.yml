@@ -2,7 +2,7 @@ install:
 - sudo add-apt-repository http://ppa.launchpad.net/texlive-backports/ppa/ubuntu -y
 - sudo apt-get update
 - sudo apt-get install texlive-base
-- sudo apt-get install texlive-extra
+- sudo apt-get install texlive-latex-extra
 - sudo apt-get install texlive-lang-finnish texlive-lang-swedish
 script:
 - source ./test.sh
