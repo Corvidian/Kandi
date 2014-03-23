@@ -1,4 +1,4 @@
-MAIN_FILE = siistitty
+MAIN_FILE = aine
 
 pdf:
 ifdef PDFOPEN
