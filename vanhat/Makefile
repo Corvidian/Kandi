@@ -1,4 +1,4 @@
-MAIN_FILE = referaatti
+MAIN_FILE = aine
 
 pdf:
 ifdef PDFOPEN
@@ -14,4 +14,4 @@ ifdef PDFOPEN
 endif
 clean:
 
-	rm -f *.aux *.bbl *.bcf *.blg *.bst *.dvi *.idx *.lof *.log *.toc *.out *.synctex.gz *.glo *.ind *.ilg *.pdfsync *.fls *.fdb_latexmk 
+	rm -f *.aux *.bbl *.blg *.bst *.dvi *.idx *.lof *.log *.toc *.out *.synctex.gz *.glo *.ind *.ilg *.pdfsync *.fls *.fdb_latexmk 
