@@ -5,6 +5,7 @@ install:
 - sudo apt-get install texlive-latex-extra
 - sudo apt-get install texlive-lang-finnish texlive-lang-swedish
 - sudo apt-get install biblatex
+- sudo apt-get install biber
 script:
 - source ./test.sh
 after_success: ./update-gh-pages.sh
