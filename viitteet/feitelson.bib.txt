@@ -1,0 +1,9 @@
+@article{feitelson2013development,
+  title={Development and deployment at Facebook},
+  author={Feitelson, Dror G and Frachtenberg, Eitan and Beck, Kent L},
+  journal={IEEE Internet Computing},
+  number={4},
+  pages={8--17},
+  year={2013},
+  publisher={IEEE}
+}

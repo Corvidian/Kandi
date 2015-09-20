@@ -1,0 +1,6 @@
+@techreport{azoff2011devops,
+  title={DevOps: Advances in release management and automation},
+  author={Azoff, Michael},
+  year={2011},
+  institution={Technical report, Ovum}
+}

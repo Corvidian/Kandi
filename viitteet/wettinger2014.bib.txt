@@ -1,0 +1,8 @@
+@incollection{wettinger2014devopslang,
+  title={DevOpSlang--bridging the gap between development and operations},
+  author={Wettinger, Johannes and Breitenb{\"u}cher, Uwe and Leymann, Frank},
+  booktitle={Service-Oriented and Cloud Computing},
+  pages={108--122},
+  year={2014},
+  publisher={Springer}
+}

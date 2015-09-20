@@ -1,17 +1,16 @@
 MAIN_FILE = referaatti
 
-pdf:
-ifdef PDFOPEN
-	pdfclose --all
-endif
+pdf: viitteet.bib
 	echo ${MAIN_FILE}.tex
 	pdflatex ${MAIN_FILE}.tex
-	bibtex ${MAIN_FILE}.aux
+	biber ${MAIN_FILE}
 	pdflatex ${MAIN_FILE}.tex
 	pdflatex ${MAIN_FILE}.tex
 ifdef PDFOPEN
-	pdfopen --file ${MAIN_FILE}.pdf
+	open ${MAIN_FILE}.pdf
 endif
-clean:
 
-	rm -f *.aux *.bbl *.bcf *.blg *.bst *.dvi *.idx *.lof *.log *.toc *.out *.synctex.gz *.glo *.ind *.ilg *.pdfsync *.fls *.fdb_latexmk 
+viitteet.bib:
+	cat viitteet/* > viitteet.bib
+clean:
+	rm -f viitteet.bib *.aux *.bbl *.bcf *.blg *.bst *.dvi *.idx *.lof *.log *.toc *.out *.synctex.gz *.glo *.ind *.ilg *.pdfsync *.fls *.fdb_latexmk *.run.xml 

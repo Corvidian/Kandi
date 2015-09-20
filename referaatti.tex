@@ -48,10 +48,14 @@
 %\usepackage[fixlanguage]{babelbib}
 %\selectbiblanguage{finnish}
 \usepackage[
-	style=authoryear,
-	backend=bibtex,
-	maxbibnames=99]{biblatex}
-\addbibresource{referaatti-viitteet.bib}
+        style=authoryear-comp,
+	firstinits=true,
+        backend=biber,
+        maxbibnames=99,
+        maxcitenames=2]{biblatex}
+\addbibresource{viitteet.bib}
+
+\DeclareNameAlias{last-first/first-last}{last-first}
 
 % add bibliography to the table of contents
 \usepackage[nottoc]{tocbibind}
@@ -130,10 +134,31 @@
 
 \mainmatter       % clear page, start arabic page numbering
 
-\section{Johdanto}
+Luin kaksi devopsia käsittelevää artikkelia, joista toisessa pohdittiin devopsin määritelmää ja toisessa devopsin ja laadunvalvonnan suhdetta toisiinsa.
 
-Lorem ipsumia tai jotain \parencite{houston}.
-\section{Yhteenveto}
+Vaikka yleisesti hyväksytään, että Devopsin tavoitteena on pääasiassa ohjelmiston kehittämisen ja ylläpidon välisen kuilun kurominen umpeen, termin tarkasta määritelmästä on edelleen monia erilaisia käsityksiä \parencite{smeds15}. Jotkut määrittelevät devopsin työpaikkana, joka on sekoitus kehittäjän ja ylläpitäjän taitoja, toisten mielestä devops on uusia kriteerejä kehittämiseen, testaukseen, julkaisemiseen, ylläpitoon ja metriikkaan \parencite{roche13}. Jokaisella firmalla on omanlaisensa tavat soveltaa devopsia \parencite{smeds15}.
+
+\textcite{smeds15} keskittyvät kahteen olennaiseen kysymykseen aiheesta: mitkä piirteet määrittävät devopsin, ja mitkä asiat on koettu esteiksi devopsin käyttöönotossa. Kirjoittajat ovat tutkineet monia lähteitä liittyen devopsin määrittämiseen. Jotkut artikkelit ovat heidän mielestään väärässä siinä, että ne määrittelevät devopsin pelkkien kulttuurillisten tekijöiden avulla, kun todellisuudessa nämä tekijät voivat olla olemassa missä tahansa muussakin organisaatiossa, muullakin kuin IT-alalla. Kirjoittajat itse määrittelevät devopsin joukoksi kykyjä, joita tukevat kulttuuriset ja teknologiset mahdollistajat. Kyvyillä tarkoitetaan prosesseja jotka organisaation tulisi pystyä toteuttamaan, mahdollistajat auttavat toteuttamaan nämä prosessit joustavasti ja tehokkaasti.
+
+Kyvyt ovat Devopsin määrittelyssä pääkohdat, mutta ilman mahdollistajia devops ei toimi \parencite{smeds15}. Näitä kykyjä ovat jatkuva suunnittelu, testaus, kehitys ja julkaisu, missä jatkuvalla tarkoitetaan toimintojen tekemistä pienissä lisäyksissä ja viiveettä. Jotta tämä kokonaisuus saataisiin tehokkaasti toteutettua, pitäisi testaus- ja julkaisuketjun olla automatisoitu, ja samalla kehittäjien ja julkaisijoiden yhteistyön pitäisi tapahtua hallitusti ja sulavasti.
+
+Lisäksi kykyihin kuuluu jatkuva infrastruktuurin tarkkailu ja optimointi sekä käyttäjien käyttäytymisen jatkuva seuranta ja raportointi. Näistä saatavaa tietoa käytetään hyväksi palvelun jatkokehityksessä, lähtökohtana suunnittelussa ja kehityksessä. Viimeisenä kykynä mainitaan valmius palautua nopeasti mahdollisesta virhetilanteesta palvelussa. Tämän mahdollistaa monitorointi sekä olemassa oleva valmiussuunnitelma virhetilanteiden varalle.
+
+Kykyjen kulttuurillisia mahdollistajia ovat jatkuva toimiva kommunikaatio, kokeileminen ja oppiminen, yhteiset arvot, kunnioitus, luottamus ja tavoitteet sekä jaettu vastuu ja kollektiivinen omistajuus tuotteesta. Teknologiset mahdollistajat puolestaan vastaavat automatisoinnin tarpeeseen, jolloin työntekijät voivat keskittyä sen sijaan luovempiin ja tuottavampiin tehtäviin. Automatisointi myös vähentää virhetilanteita järjestelmässä sekä helpottaa jatkuvaa toimitusta.
+
+\textcite{roche13} ei kovin tarkkaan pohdi devopsin määritelmää, vaan enemmänkin sitä, millä tavalla devopsilla kerättyä tietoa voidaan käyttää laadunvalvonnan tehostamiseen.
+
+\textcite{roche13} mukaan devopsilla tarkoitetaan sitä, että ylläpitäjät tekevät ylläpitotöiden lisäksi kehittäjien töitä ja kehittäjät ylläpitäjien. Kehittämistyö ja ylläpito ovat yhdistyneet, koska aiemmin käytössä olleiden kotikutoisten järjestelmien ylläpito, rakentaminen ja skaalaus alkoi käydä liian työlääksi. Sen jälkeen on kehitetty yleisesti saatavilla olevia työkaluja, joita kehittäjäorganisaatiot voivat käyttää perusasioiden kuten julkaisunhallinnan, standardoinnin ja automatisoinnin apuna, jolloin niiden ei tarvitse käyttää omia resurssejaan tähän. \parencite{roche13} mukaan tässä on selvästi nähtävissä aika ennen devopsia ja aka devopsin jälkeen.
+
+Mitä paremmin tuntee sekä järjestelmän koodin että alustan, sitä parempi on kehittämään ja ylläpitämään sitä. Merkittävää devopsissa on kokonaisvaltainen tieto järjestelmästä, joka auttaa myös ennakoimaan ongelmia ja tekemään profilointia. Devopsille olennainen kehitykseen ja mittauksiin keskittyminen on tuonut ohjelmistokehitysprosesseihin uusia mahdollisuuksia, jotka auttavat niin kehittäjiä kuin tuotepäälliköitä \parencite{roche13}.
+
+Devops on kehitysprosessin standardisoinnin avulla saanut aikaan pysyvän parannuksen koodin kehitykseen \parencite{roche13}.
+
+Devopsin käyttöönotto ei välttämättä ole yksinkertaista ja eteen voi tulla monia esteitä, joilla voi olla vaikutusta moneen osa-alueeseen \parencite{smeds15}. Yksi näistä mahdollisista esteistä on määritelmä. Devopsin määritelmässä on vielä paljon epätarkkuuksia ja sen voi ymmärtää monella tavalla. Tästä johtuen esimerkiksi tavoitteet ja se miten niihin päästään voivat jäädä epäselviksi, tai erota siitä miten muut ovat ne ymmärtäneet. Devopsin määritelmä vaatii vielä paljon lisää tutkimusta.
+
+Toinen este devopsin käyttöönotossa voi olla mahdolliset negatiiviset mielikuvat. Kysyttäessä ihmisiltä kuinka he määrittelisivät devopsin tai kuinka tuttu se konseptina heille on, suurin osa mainitsi vastauksessaan termin epämääräisyyden, ja joissakin vastauksissa oli havaittavissa myös luottamuksen puutetta devops-konseptiin \parencite{smeds15}. Tästä voidaan päätellä, että mielikuvat devopsista eivät ole aina kokonaisuudessaan positiivisia, mikä voi saada aikaan vastustusta devopsia kohtaan sekä kehittäjien että asiakkaiden keskuudessa. 
+
+\textcite{smeds15} mukaan kehittäjien keskuudessa vastustusta voi lisäksi aiheuttaa se, että devopsin käyttöönoton seurauksena heidän työmääränsä ja vastuualueensa kasvavat, mikä voi aiheuttaa stressiä ja alentaa työtehoa. Lisäksi kehittäjiltä vaaditaan aiempaa enemmän tietoa ja taitoa, kun heidän on oltava päteviä sekä kehitys- että ylläpitopuolen tehtävissä, mikä voi olla ongelma myös siinä tapauksessa että toinen puoli ei kiinnosta heitä ollenkaan. Asiakkaiden osalta devops voi myös osoittautua ei-toivotuksi työtavaksi silloin, jos heidän tarvitsemansa toimintatavat ja käytännöt eivät käy yhteen devopsien vastaavien kanssa.
 
 % --- References ---
 %

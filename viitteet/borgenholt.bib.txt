@@ -1,0 +1,8 @@
+@article{borgenholt2014audition,
+  title={Audition: a DevOps-oriented service optimization and testing framework for cloud environments},
+  author={Borgenholt, Gaute and Begnum, Kyrre and Engelstad, Paal E},
+  journal={Norsk informatikkonferanse (NIK)},
+  volume={2013},
+  year={2014},
+  publisher={Akademika forlag}
+}

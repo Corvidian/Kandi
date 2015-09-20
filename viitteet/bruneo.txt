@@ -1,0 +1,8 @@
+@inproceedings{bruneo2014cloudwave,
+  title={Cloudwave: where adaptive cloud management meets devops},
+  author={Bruneo, Dario and Fritz, Thomas and Keidar-Barner, Sharon and Leitner, Philipp and Longo, Federica and Marquezan, Clarissa and Metzger, Andreas and Pohl, Klaus and Puliafito, Antonio and Roth, Andrei and others},
+  booktitle={Computers and Communication (ISCC), 2014 IEEE Symposium on},
+  pages={1--6},
+  year={2014},
+  organization={IEEE}
+}

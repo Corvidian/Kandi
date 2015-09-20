@@ -1,0 +1,8 @@
+@inproceedings{hosono2012application,
+  title={Application lifecycle kit for mass customization on paas platforms},
+  author={Hosono, Shigeru and Shimomura, Yoshiki},
+  booktitle={Services (SERVICES), 2012 IEEE Eighth World Congress on},
+  pages={397--398},
+  year={2012},
+  organization={IEEE}
+}

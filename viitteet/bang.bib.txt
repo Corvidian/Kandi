@@ -1,0 +1,8 @@
+@inproceedings{bang2013grounded,
+  title={A grounded theory analysis of modern web applications: knowledge, skills, and abilities for DevOps},
+  author={Bang, Soon K and Chung, Sam and Choh, Young and Dupuis, Marc},
+  booktitle={Proceedings of the 2nd annual conference on Research in information technology},
+  pages={61--62},
+  year={2013},
+  organization={ACM}
+}

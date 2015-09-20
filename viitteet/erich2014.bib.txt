@@ -1,0 +1,8 @@
+@inproceedings{erich2014cooperation,
+  title={Cooperation between information system development and operations: a literature review},
+  author={Erich, Floris and Amrit, Chintan and Daneva, Maya},
+  booktitle={Proceedings of the 8th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement},
+  pages={69},
+  year={2014},
+  organization={ACM}
+}

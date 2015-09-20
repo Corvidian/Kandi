@@ -1,0 +1,8 @@
+@inproceedings{cukier2013devops,
+  title={DevOps patterns to scale web applications using cloud services},
+  author={Cukier, Daniel},
+  booktitle={Proceedings of the 2013 companion publication for conference on Systems, programming, \& applications: software for humanity},
+  pages={143--152},
+  year={2013},
+  organization={ACM}
+}

@@ -1,0 +1,10 @@
+@article{ragan201321st,
+  title={21st-century DevOps--an end to the 20th-century practice of writing static build and deploy scripts},
+  author={Ragan, Tracy},
+  journal={Linux Journal},
+  volume={2013},
+  number={230},
+  pages={5},
+  year={2013},
+  publisher={Belltown Media}
+}

@@ -1,0 +1,10 @@
+@article{spinellis2012don,
+  title={Don't Install Software by Hand},
+  author={Spinellis, Diomidis},
+  journal={Software, IEEE},
+  volume={29},
+  number={4},
+  pages={86--87},
+  year={2012},
+  publisher={IEEE}
+}

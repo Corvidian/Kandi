@@ -1,0 +1,8 @@
+@article{liu2014integrated,
+  title={Integrated solution for timely delivery of customer change requests: A case study of using devops approach},
+  author={Liu, Yuhong and Li, Chengbo and Liu, Wei},
+  journal={International Journal of U-\& E-Service, Science \& Technology},
+  volume={7},
+  number={2},
+  year={2014}
+}

@@ -1,0 +1,5 @@
+@misc{erich2014report,
+  title={Report: DevOps Literature Review},
+  author={Erich, Floris and Amrit, Chintan and Daneva, Maya},
+  year={2014}
+}

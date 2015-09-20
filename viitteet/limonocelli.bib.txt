@@ -1,0 +1,9 @@
+@article{limoncelli2011lisa,
+  title={LISA’11 Theme—“DevOps: New Challenges, Proven Values”},
+  author={Limoncelli, Thomas A and Hughes, Doug},
+  journal={Login},
+  volume={36},
+  number={4},
+  pages={46--48},
+  year={2011}
+}

@@ -1,0 +1,10 @@
+@article{roche13,
+  title={Adopting DevOps practices in quality assurance},
+  author={Roche, James},
+  journal={Communications of the ACM},
+  volume={56},
+  number={11},
+  pages={38--43},
+  year={2013},
+  publisher={ACM}
+}

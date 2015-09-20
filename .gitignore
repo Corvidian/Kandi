@@ -1,3 +1,4 @@
+viitteet.bib
 *.aux
 *.glo
 *.idx
@@ -26,3 +27,6 @@
 *.pdf
 *.fls
 gh-pages/
+*.bcf
+*-blx.bib
+*.run.xml

@@ -1,0 +1,5 @@
+@article{wettinger2012concepts,
+  title={Concepts for integrating devops methodologies with model-driven cloud management based on TOSCA},
+  author={Wettinger, Johannes},
+  year={2012}
+}

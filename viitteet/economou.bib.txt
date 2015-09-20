@@ -1,0 +1,6 @@
+@article{economou2014your,
+  title={Your data is your dogfood: DevOps in the astronomical observatory},
+  author={Economou, Frossie and Hoblitt, Joshua C and Norris, Pat},
+  journal={arXiv preprint arXiv:1407.6463},
+  year={2014}
+}
